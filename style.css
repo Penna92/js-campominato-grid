@@ -22,25 +22,28 @@ footer {
     line-height: 60px;
 }
 
-.container > .row {
+.container>.row {
     width: 400px;
     height: 400px;
     --bs-gutter-x: 0 !important;
 }
 
-.size-easy{
-   width: 10%;
-   height: 10%; 
+.size-easy {
+    width: 10%;
+    height: 10%;
+    line-height: 40px;
 }
 
 .size-medium {
     width: calc(400px / 9);
     height: calc(400px / 9);
+    line-height: calc(400px / 9);
 }
 
 .size-hard {
     width: calc(400px / 7);
     height: calc(400px / 7);
+    line-height: calc(400px / 7);
 }
 
 .black-border {

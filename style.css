@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+}
+
+header {
+    height: 80px;
+    line-height: 80px;
+}
+
+.left-header>h1 {
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+main {
+    height: calc(100vh - 140px);
+    background-color: #7FFFD4;
+}
+
+footer {
+    height: 60px;
+    line-height: 60px;
+}
